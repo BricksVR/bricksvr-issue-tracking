@@ -14,4 +14,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.repository }}
         issue: ${{ github.event.issue.number }}
-        issue_project_ids: 11806830
+        issue_project_ids: MDc6UHJvamVjdDExODA2ODMw
