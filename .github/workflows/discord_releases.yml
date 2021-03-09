@@ -1,0 +1,17 @@
+name: 'Post releases to Discord'
+env:
+    DISCORD_WEBHOOK: ${{ secrets.DISCORD_RELEASES_WEBHOOK }}
+    
+on:
+  release:
+    types:
+    - published
+ 
+jobs:
+  post_on_discord:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: Ilshidur/action-discord@master
+      with:
+        args: "Testing!"
