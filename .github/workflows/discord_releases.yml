@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: Ilshidur/action-discord@master
       with:
-        args: "**Version {{ EVENT_PAYLOAD.release.tag_name }} has been released!**\n\nLink: {{ EVENT_PAYLOAD.release.html_url }}\n\n **Changelog:**\n\n{{ EVENT_PAYLOAD.release.body }}"
+        args: "**Version {{ EVENT_PAYLOAD.release.tag_name }} has been released!**\n\nLink: {{ EVENT_PAYLOAD.release.html_url }}\n\n **Changelog:**\n{{ EVENT_PAYLOAD.release.body }}"
