@@ -20,14 +20,14 @@ Steps to reproduce the behavior:
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
 
-**Actual behaviour**
-What actually happens.
-
 **Screenshots or Video**
 If applicable, add screenshots or video to help explain your problem.
 
 **Device information:**
 What headset are you using?
+
+**Build version:**
+What release version are you using?
 
 **Additional context**
 Add any other context about the problem here.
