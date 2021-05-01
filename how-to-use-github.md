@@ -4,7 +4,7 @@ New to GitHub? This guide will show you the parts you need to know for the alpha
 
 ### Repositories
 
-https://github.com/BricksVR/bricksvr-alpha is our repository, it represents a single "project". GitHub repositories can also include source code but we have our source code elsewhere.
+https://github.com/BricksVR/bricksvr-issue-tracking is our repository, it represents a single "project". GitHub repositories can also include source code but we have our source code elsewhere.
 
 ### Issues
 
