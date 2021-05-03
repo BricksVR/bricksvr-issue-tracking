@@ -23,4 +23,6 @@ OptionParser.new do |opts|
 end.parse!
 
 bot = Discordrb::Bot.new token: options[:token]
-bot.send_message(DISCORD_GITHUB_FEED_CHANNEL, ":green_circle: New issue **#{options[:type]}: #{options[:name]}\n\n#{options[:url]}")
+
+emoji = options[:type] == "opened" ? ":green_circle:" : ":red_circle"
+bot.send_message(DISCORD_GITHUB_FEED_CHANNEL, "#{emoji} Issue #{options[:type]}: **#{options[:name]}**\n\n#{options[:url]}")
