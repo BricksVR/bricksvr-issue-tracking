@@ -1,4 +1,5 @@
 require 'optparse'
+DISCORD_GITHUB_FEED_CHANNEL = "838768520194949210"
 
 options = {}
 OptionParser.new do |opts|
@@ -15,4 +16,5 @@ OptionParser.new do |opts|
   end
 end.parse!
 
-puts options
+bot = Discordrb::Bot.new token: ENV["DISCORD_BOT_TOKEN"]
+bot.send_message(DISCORD_GITHUB_FEED_CHANNEL, "testing")
