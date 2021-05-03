@@ -32,4 +32,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test
-        run: ruby .github/scripts/post_issue_activity_to_discord.rb --type "$GITHUB_EVENT_NAME" --name {{ EVENT_PAYLOAD.issue.title }} --url "{{ EVENT_PAYLOAD.issue.html_url }}"
+        run: ruby .github/scripts/post_issue_activity_to_discord.rb --type "$GITHUB_EVENT_NAME" --name ${{ github.event.issue.title }} --url "${{ github.event.issue.html_url }}"
