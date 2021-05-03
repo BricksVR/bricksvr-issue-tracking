@@ -32,4 +32,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test
-        run: ruby post_issue_activity_to_discord.rb
+        run: ruby .github/scripts/post_issue_activity_to_discord.rb
