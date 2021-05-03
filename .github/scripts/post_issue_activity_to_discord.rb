@@ -1,4 +1,6 @@
 require 'optparse'
+require "discordrb"
+
 DISCORD_GITHUB_FEED_CHANNEL = "838768520194949210"
 
 options = {}
