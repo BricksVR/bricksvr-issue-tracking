@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    optparse (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  optparse (~> 0.1.0)
+
+BUNDLED WITH
+   1.17.3
