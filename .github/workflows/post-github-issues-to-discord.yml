@@ -26,7 +26,8 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: ruby/setup-ruby@2eb6adbfb1f8850489a1f947f9421d777ea89485
         uses: ruby/setup-ruby@v1.70.1
-#         with:
+        with:
+            ruby-version: 2.6.6
 #           working-directory: ../scripts/
 
       # Runs a single command using the runners shell
