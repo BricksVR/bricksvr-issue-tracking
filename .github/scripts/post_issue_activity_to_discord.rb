@@ -16,7 +16,11 @@ OptionParser.new do |opts|
   opts.on("-nName", "--name=NAME") do |v|
     options[:name] = v
   end
+
+  opts.on("tokenTOKEN", "--token=TOKEN") do |v|
+    options[:token] = v
+  end
 end.parse!
 
-bot = Discordrb::Bot.new token: ENV["DISCORD_BOT_TOKEN"]
-bot.send_message(DISCORD_GITHUB_FEED_CHANNEL, "testing")
+bot = Discordrb::Bot.new token: options[:token]
+bot.send_message(DISCORD_GITHUB_FEED_CHANNEL, ":green_circle: New issue **#{options[:type]}: #{options[:name]}\n\n#{options[:url]}")
