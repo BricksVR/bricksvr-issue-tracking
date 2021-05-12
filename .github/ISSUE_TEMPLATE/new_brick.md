@@ -11,5 +11,4 @@ assignees: ''
 <!-- YOUR ANSWER HERE -->
 
 **Why do we need this brick?**
-
 <!-- YOUR ANSWER HERE -->
