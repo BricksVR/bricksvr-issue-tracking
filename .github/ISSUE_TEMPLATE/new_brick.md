@@ -2,7 +2,7 @@
 name: New Brick
 about: Suggest a new brick
 title: ''
-labels: new brick
+labels: new bricks
 assignees: ''
 
 ---
