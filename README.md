@@ -4,7 +4,9 @@ This repo is a place to track bugs and things to-do for BricksVR.
 
 ## How to play
 
-BricksVR is currently in private alpha, but we're accepting new users! Just fill out the short [alpha signup form](https://forms.gle/ftmL8k9rQeWkTDzBA). You can also check out [our Discord community!](https://discord.gg/YgtFHMrGJs)
+BricksVR is launching in Early Access on June 30th. You can wishlist it on steam here: https://store.steampowered.com/app/1614920/BricksVR/
+
+You can also check out [our Discord community!](https://bricksvr.com/discord)
 
 
 ## Reporting a bug / requesting a feature
