@@ -1,4 +1,4 @@
-# Reporting an issue
+# Reporting an issue or Making a Feature Request
 
 You've found a bug? Awesome! There's a few steps we need you to follow to help keep bug reports organized.
 
