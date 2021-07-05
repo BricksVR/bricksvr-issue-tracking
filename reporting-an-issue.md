@@ -2,6 +2,10 @@
 
 You've found a bug? Awesome! There's a few steps we need you to follow to help keep bug reports organized.
 
+### Sign up
+
+If you don't have a GitHub account, create one for free by heading to https://github.com/signup
+
 ### Check for duplicates
 
 Please always check for duplicates before making an issue. We close all duplicates, and we don't want you to waste your time writing out a big issue that's just going to get deleted. Head to the `issues` tab and use the search bar to see if a similar bug has been reported. If you find an existing issue, feel free to add a reaction or a comment if you have anything to add.
