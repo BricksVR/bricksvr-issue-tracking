@@ -4,7 +4,9 @@ This repo is a place to track bugs and things to-do for BricksVR.
 
 ## How to play
 
-BricksVR is launching in Early Access on June 30th. You can wishlist it on steam here: https://store.steampowered.com/app/1614920/BricksVR/
+BricksVR launched in Early Access on June 30th.
+https://store.steampowered.com/app/1614920/BricksVR/
+https://www.oculus.com/experiences/quest/4018602774873329/
 
 You can also check out [our Discord community!](https://bricksvr.com/discord)
 
